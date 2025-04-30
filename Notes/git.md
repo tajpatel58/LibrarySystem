@@ -17,3 +17,5 @@
 - `git commit -m "<MESSSAGE NAME>`": Is a save point that saves things in staging, that way you can revert your code back to incase of any bugs/issues. Message Name is usually a brief description of the changes you've made. 
 - `git checkout -b <BRANCH NAME>`: Create a branch with a particular name. 
 - `git push -u origin <BRANCH NAME>`: Pushes new commits to Github. 
+- after first -u: `git push origin main`: Pushes commits from your system to Github.
+- `git pull origin main`: Pulls changes from Github to your system.
