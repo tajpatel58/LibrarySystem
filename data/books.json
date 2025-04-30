@@ -1,0 +1,24 @@
+{
+    "The Great Gatsby": {
+      "ISBN": "978-0743273565",
+      "Author": "F. Scott Fitzgerald",
+      "Page count": 180,
+      "Published Year": 1925,
+      "Genre": "Classic Literature"
+    },
+    "Harry Potter and the Half-Blood Prince": {
+      "ISBN": "978-0439785969",
+      "Author": "J.K. Rowling",
+      "Page count": 652,
+      "Published Year": 2005,
+      "Genre": "Fantasy"
+    },
+    "The Psychology of Money": {
+      "ISBN": "978-0857197689",
+      "Author": "Morgan Housel",
+      "Page count": 252,
+      "Published Year": 2020,
+      "Genre": "Personal Finance"
+    }
+}
+  
