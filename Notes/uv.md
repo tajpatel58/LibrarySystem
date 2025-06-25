@@ -1,0 +1,14 @@
+## UV + Packages
+- Package: Code written by someone else stored into a repository 
+- Different projects will use different packages
+- UV is a tool we can use to create virtual environments
+- VE- The environment in which codes run, all the codes you run will run in this one environment 
+- Virtual environment = Python version + Packages installed, this is key for reproducing environments on other machines
+- Pip is a package manager- helps you install code written by someone else
+- `uv pip list` shows all packages installed in your environment 
+- `uv pip install [package name]`  installs packages from pypi (where people publish their packages)
+- `uv venv` - creates an environment for you to start installing packages
+- Always create a virtual environment when you start a new project
+- `source .venv/bin/activate` to activate virtual environment
+- when you locally import, can only import from the same level or below
+- create .pth file in the site packages folder found in the virtual environment, and it is used to store paths where python looks for importing code. 
