@@ -6,3 +6,11 @@ class Book:
         self.year_published = year_published
         self.isbn = isbn
         self.in_stock = in_stock
+
+    def __repr__(self):
+        book_as_string = f'The book name is {self.title}, written by {self.author}'
+        return book_as_string
+    
+    def __str__(self):
+        second_book_as_string = f'Book: {self.title} by {self.author}'
+        return second_book_as_string
