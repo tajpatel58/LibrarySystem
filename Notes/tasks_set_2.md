@@ -5,7 +5,7 @@
 **File**: `data_manager.py`
 
 **Description**:  
-Write a function that accepts a list of dictionaries. Each dictionary represents a book with its properties (like title, author, page_count, etc.). The function should convert each dictionary into an instance of the `Book` class and return a list of these instances.
+Write a function that accepts a dictionary, where the keys are names of books and values are information by the book, and returns a list of Books (Book types) corresponding to those books. 
 
 **Function Signature**:
 ```python
@@ -18,10 +18,14 @@ def convert_to_books(book_dicts: list[dict]) -> list[Book]:
 
 ### 💡 Example:
 ```python
-book_dicts = [
-    {"Title": "1984", "Author": "George Orwell", "Page count": 1000, "ISBN" : "111", "Year" : 1936, "Genre" : "Horror"}
-    {"Title": "Wealth Money Can't Buy", "Author": "Robin Sharma", "Page count": 100, "ISBN" : "123", "Year" : 2015, "Genre" : "Lifestyle"}
-]
+    books_as_dict = {"The Great Gatsby": {
+      "ISBN": "978-0743273565",
+      "Author": "F. Scott Fitzgerald",
+      "Page count": 180,
+      "Published Year": 1925,
+      "Genre": "Classic Literature"
+    }
+    }
 
 books = convert_to_books(book_dicts)
 print(books[0].title)  # Output: 1984
